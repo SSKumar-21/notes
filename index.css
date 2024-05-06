@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    color: #10439F;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 2em;
+    color: #874CCC;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #C65BCF;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+ol, ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: black;
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    margin-top: 10px;
+    color: black;
+}
