@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Notes</title>
+</head>
+<body>
+    <h1>WEB DEVELOPMENT</h1>
+    <p>HTML, CSS, and JavaScript are foundational technologies used for creating websites and web applications. Here's a brief overview of each:</p>
+    <ol>
+        <li><strong>HTML (HyperText Markup Language):</strong>
+            <ul>
+                <li>HTML is the standard markup language for creating the structure and content of web pages.</li>
+                <li>It uses a system of tags and elements to define different parts of a web page, such as headings, paragraphs, images, links, and more.</li>
+                <li>HTML provides the basic structure that is used by web browsers to render web pages correctly.</li>
+            </ul>
+        </li>
+        <li><strong>CSS (Cascading Style Sheets):</strong>
+            <ul>
+                <li>CSS is used to style the layout and appearance of web pages created with HTML.</li>
+                <li>It allows you to control the colors, fonts, spacing, and overall design of a web page.</li>
+                <li>CSS uses selectors to target specific elements on a web page and apply styles to them.</li>
+            </ul>
+        </li>
+        <li><strong>JavaScript:</strong>
+            <ul>
+                <li>JavaScript is a programming language that adds interactivity and dynamic behavior to web pages.</li>
+                <li>It can be used to create interactive features like dropdown menus, form validation, animations, and more.</li>
+                <li>JavaScript is executed by the web browser, making it possible to create responsive and interactive web applications.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>HTML:</h2>
+    <h3>TAG AND ATTRIBUTE:</h3>
+    <p>Tags in HTML are keywords enclosed in angle brackets (&lt;&gt;) used to define elements on a web page. There are two types of tags:</p>
+    <ul>
+        <li><strong>Void Tags:</strong> These are self-closing tags that don't require a closing tag, like &lt;img&gt; or &lt;br&gt;.</li>
+        <li><strong>Opening and Closing Tags:</strong> These come in pairs, with the content between them. Examples include &lt;p&gt; for paragraphs or &lt;div&gt; for divisions.</li>
+    </ul>
+    <p>Attributes provide extra information about an element and are added to the opening tag. They're written as name="value". For example, href="https://example.com" in &lt;a href="https://example.com"&gt;Link&lt;/a&gt;.</p>
+    <p>Understanding tags and attributes is essential for creating structured and visually appealing web pages.</p>
+
+    <h3>IMPORTANT TAGS:</h3>
+    <p>Here's a brief explanation of each tag along with an example:</p>
+    <ol>
+        <li><strong>Heading Tags (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;):</strong>
+            <ul>
+                <li>Heading tags are used to define headings on a web page.</li>
+                <li>They range from &lt;h1&gt; (the highest level) to &lt;h6&gt; (the lowest level).</li>
+                <li>Example: &lt;h1&gt;This is a Heading&lt;/h1&gt;</li>
+            </ul>
+        </li>
+        <li><strong>Paragraph Tag (&lt;p&gt;):</strong>
+            <ul>
+                <li>The paragraph tag is used to define paragraphs of text.</li>
+                <li>Example: &lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+            </ul>
+        </li>
+        <li><strong>Horizontal Rule Tag (&lt;hr&gt;):</strong>
+            <ul>
+                <li>The horizontal rule tag is used to create a horizontal line on the page.</li>
+                <li>Example: &lt;hr&gt;</li>
+            </ul>
+        </li>
+        <li><strong>Break Tag (&lt;br&gt;):</strong>
+            <ul>
+                <li>The break tag is used to create a line break within text.</li>
+                <li>Example: First line&lt;br&gt;Second line</li>
+            </ul>
+        </li>
+        <li><strong>Ordered List Tag (&lt;ol&gt;, &lt;li&gt;):</strong>
+            <ul>
+                <li>The ordered list tag is used to create a numbered list.</li>
+                <li>Example:
+                    <pre><code>&lt;ol&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&lt;/li&gt;
+  &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Unordered List Tag (&lt;ul&gt;, &lt;li&gt;):</strong>
+            <ul>
+                <li>The unordered list tag is used to create a bulleted list.</li>
+                <li>Example:
+                    <pre><code>&lt;ul&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&lt;/li&gt;
+  &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Nested List:</strong>
+            <ul>
+                <li>Lists can be nested inside one another to create hierarchical structures.</li>
+                <li>Example:
+                    <pre><code>&lt;ul&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item
+    &lt;ul&gt;
+      &lt;li&gt;Nested item 1&lt;/li&gt;
+      &lt;li&gt;Nested item 2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Anchor Tag (&lt;a&gt;):</strong>
+            <ul>
+                <li>The anchor tag is used to create hyperlinks.</li>
+                <li>Example: &lt;a href="https://example.com"&gt;Link&lt;/a&gt;</li>
+            </ul>
+        </li>
+        <li><strong>Image Tag (&lt;img&gt;):</strong>
+            <ul>
+                <li>The image tag is used to display images on a web page.</li>
+                <li>Example: &lt;img src="image.jpg" alt="Image Description"&gt;</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>DIFFERENCE BETWEEN ‘src’ AND ‘href’</h2>
+    <ol>
+        <li><strong>src:</strong>
+            <ul>
+                <li>The <code>src</code> attribute is used in tags like <code>&lt;img&gt;</code>, <code>&lt;script&gt;</code>, and <code>&lt;iframe&gt;</code> to specify the source (URL) of the resource being embedded.</li>
+                <li>It is used to load external content into the current document, such as images, scripts, or other HTML documents.</li>
+                <li>Example: <code>&lt;img src="image.jpg"&gt;</code></li>
+            </ul>
+        </li>
+        <li><strong>href:</strong>
+            <ul>
+                <li>The <code>href</code> attribute is used in the <code>&lt;a&gt;</code> (anchor) tag to specify the destination (URL) of the link.</li>
+                <li>It is used to create hyperlinks, allowing users to navigate to different pages or resources.</li>
+                <li>Example: <code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code></li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>PATH:</h2>
+    <p>In computing, a path is a unique location to a file or directory in a file system of an operating system. Paths are used to specify the location of files and directories when referencing them in commands or programs. There are two main types of paths:</p>
+    <ol>
+        <li><strong>Relative Path:</strong>
+            <ul>
+                <li>A relative path specifies the location of a file or directory relative to the current working directory.</li>
+                <li>Relative paths do not begin with a root (<code>/</code> in Unix-like systems or <code>.\User\admin</code> in Windows) and are used to navigate within the current directory or to files and directories nearby.</li>
+                <li>Examples:
+                    <ul>
+                        <li>If the current directory is <code>/home/user/</code> and you want to access a file named <code>example.txt</code> located in the same directory, the relative path would be <code>example.txt</code>.</li>
+                        <li>If you want to access a file named <code>file.txt</code> located in a subdirectory named <code>docs</code> within the current directory, the relative path would be <code>docs/file.txt</code>.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Absolute Path:</strong>
+            <ul>
+                <li>An absolute path specifies the exact location of a file or directory in the file system from the root directory.</li>
+                <li>Absolute paths begin with the root directory and include all directories leading to the target file or directory.</li>
+                <li>Examples:
+                    <ul>
+                        <li>In Unix-like systems, an absolute path might look like <code>/home/user/example.txt</code>.</li>
+                        <li>In Windows, an absolute path might look like <code>C:\Users\User\Documents\file.txt</code>.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>STRUCTURE OF HTML:</h2>
+    <p>The basic structure of an HTML5 document consists of the following elements:</p>
+    <ol>
+        <li><strong>Document Type Declaration:</strong> <code>&lt;!DOCTYPE html&gt;</code> is used to specify that the document is an HTML5 document.</li>
+        <li><strong>HTML Element:</strong> The <code>&lt;html&gt;</code> element is the root element of an HTML page. It contains two main sections: the <code>&lt;head&gt;</code> section and the <code>&lt;body&gt;</code> section.</li>
+        <li><strong>Head Section:</strong> The <code>&lt;head&gt;</code> section contains meta-information about the document, such as the title of the document, links to external stylesheets, and metadata.</li>
+        <li><strong>Body Section:</strong> The <code>&lt;body&gt;</code> section contains the main content of the document, such as text, images, links, and other elements that are displayed on the web page.</li>
+    </ol>
+    <p>The basic structure of an HTML5 document looks like this:</p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Title of the Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;!-- Header content --&gt;
+    &lt;/header&gt;
+    &lt;nav&gt;
+        &lt;!-- Navigation menu --&gt;
+    &lt;/nav&gt;
+    &lt;main&gt;
+        &lt;!-- Main content --&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+        &lt;!-- Footer content --&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+</body>
+</html>
