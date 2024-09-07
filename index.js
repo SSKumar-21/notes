@@ -27,3 +27,6 @@ const searchInput = document.getElementById('search-input');
       }
     }
   });
+
+
+// not connected to main file
