@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power of Light CSS</title>
+    <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+h2{
+    font-size: 15em;
+    cursor: default;
+}
+
+.light{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x)
+    var(--y),transparent 10%,rgba(0,0,0,0.95)
+    20%);
+}
+
+    </style>
+</head>
+<body>
+    <div class="light"></div>
+    <h2>SIA</h2>
+
+    <script>
+    const lightElement = document.querySelector('.light');
+    const lightSpot = lightElement.querySelector('::before'); // Get the pseudo-element for light
+
+    document.addEventListener('mousemove', (e) => {
+        // Move the light circle around the mouse position
+        lightElement.style.setProperty('--x', `${e.clientX}px`);
+        lightElement.style.setProperty('--y', `${e.clientY}px`);
+
+        // Position the circle at the mouse position
+        lightSpot.style.left = `${e.clientX}px`;
+        lightSpot.style.top = `${e.clientY}px`;
+    });
+    </script>
+</body>
+</html>
